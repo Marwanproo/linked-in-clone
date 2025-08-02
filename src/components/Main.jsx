@@ -1,9 +1,10 @@
 import  { useEffect, useState } from "react";
-import ReactPlayer from "react-player";
+//import ReactPlayer from "react-player";
 import { connect } from "react-redux";
 import styled from "styled-components";
 import { getArticlesAPI } from "../redux/actions";
-import PostModal from "./PostModal";
+import PostModal from "./postModal";
+
 const Main = (props) => {
   const [showModal, setShowModal] = useState(false);
   const handleClick = () => {
